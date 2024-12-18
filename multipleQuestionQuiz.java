@@ -8,7 +8,6 @@ public class multipleQuestionQuiz {
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
         String[] questions = {
-            "Who Invented Java?" , "what is 5+3?" , "what is 2-2?"
             "Who Invented Java?", "What does JVM stand for?", "What is default value of an int variable in java?"
         };
 
@@ -20,12 +19,9 @@ public class multipleQuestionQuiz {
             {"1. Java Virtual Method", "2. Java Virtual Machine", "3. Java Verified Machine", "4. Java Variable Manager"},
             {"1. 1", "2. -1", "3. 0", "4. null"}
         };
-            int[] correct_ans = {3,3,1};
 
         int score = 0;
 
-            for (int i = 0 ; i<questions.length;i++){
-                System.out.println("question" + (i + 1)+ ":" + questions[i]);
         for (int i = 0; i < questions.length; i++) {
             System.out.println("question" + (i + 1) + ":" + questions[i]);
 
