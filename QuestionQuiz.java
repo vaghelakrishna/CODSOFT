@@ -3,7 +3,7 @@ import java.util.Scanner;
 import java.util.Timer;
 import java.util.TimerTask;
 
-public class multipleQuestionQuiz {
+public class QuestionQuiz {
 
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
@@ -12,13 +12,11 @@ public class multipleQuestionQuiz {
         };
 
         String[][] Options = {
-            {"1. me" , "2. you","3. James Gosling" , "4. we"},   
-            {"1. 3" , "2. 3.5","3. 8" , "4. 6"},   
-            {"1. 0" , "2. 4","3.  8" , "4. 3"}
             {"1. Dennis Ritchie", "2. James Gosling", "3. Bjarne Stoustrup", "4. Guido Van Rossum"},
             {"1. Java Virtual Method", "2. Java Virtual Machine", "3. Java Verified Machine", "4. Java Variable Manager"},
             {"1. 1", "2. -1", "3. 0", "4. null"}
         };
+        int[] correct_ans = {2, 2, 3};
 
         int score = 0;
 
